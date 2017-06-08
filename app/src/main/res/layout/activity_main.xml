@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/calendar_account"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="创建日历帐号"/>
+
+    <Button
+        android:id="@+id/calendar_account_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="日历帐号信息"/>
+
+    <Button
+        android:id="@+id/calendar_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="跳转日历页"/>
+
+    <Button
+        android:id="@+id/insert"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="插入日历提醒"/>
+
+    <Button
+        android:id="@+id/delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="删除日历提醒"/>
+
+</LinearLayout>
